@@ -21,3 +21,8 @@ sdmcli
 ```bash
 sdmcli magento:make:module
 ```
+
+![](/images/1.jpg "")
+![](/images/2.jpg "")
+![](/images/3.jpg "")
+![](/images/4.jpg "")
