@@ -1,0 +1,17 @@
+{
+  "name": "{{package_name}}",
+  "license": "proprietary",
+  "description": "Magento Module",
+  "type": "magento2-module",
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "{{vendor_name}}\\{{module_name}}\\": ""
+    }
+  }
+}

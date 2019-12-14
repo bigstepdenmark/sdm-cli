@@ -1,0 +1,60 @@
+<?php
+
+namespace {{vendor_name}}\{{module_name}}\Console\Command;
+
+use Symfony\Component\Console\Command\Command as BaseCommand;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+
+/**
+ * Class Command
+ * @package {{vendor_name}}\{{module_name}}\Console\Command
+ */
+class Command extends BaseCommand
+{
+    protected function configure()
+    {
+        $this->setName('{{command_name}}')->setDescription('This is my command description');
+
+        // Required option --id=?
+        /**$this->addOption(
+            'id',
+            null,
+            InputOption::VALUE_REQUIRED,
+            __('-')
+        );**/
+
+        // Optional option [--testmode]
+        /**$this->addOption(
+            'testmode',
+            null,
+            InputOption::VALUE_NONE,
+            __('-')
+        );**/
+
+        // Optional option [--password=?]
+        /**$this->addOption(
+            'password',
+            null,
+            InputOption::VALUE_OPTIONAL,
+            __('-')
+        );**/
+    }
+
+    /**
+     * @param InputInterface $input
+     * @param OutputInterface $output
+     *
+     * @return int|void|null
+     *
+     */
+    protected function execute(InputInterface $input, OutputInterface $output)
+    {
+        /**$id = $input->getOption('id');
+        $testMode = $input->getOption('testmode');
+        $password = $input->getOption('password');**/
+
+        $output->writeln('Yeah! it works :))');
+    }
+}

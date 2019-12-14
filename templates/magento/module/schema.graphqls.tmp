@@ -1,0 +1,12 @@
+type Query {
+    {{module_name}}Query (input: {{module_name}}Input): {{module_name}}Output @resolver(class: "{{vendor_name}}\\{{module_name}}\\Model\\Resolver\\Resolver") @doc(description: "")
+}
+
+type {{module_name}}Output {
+    output: String @doc(description: "")
+}
+
+input {{module_name}}Input {
+    requiredInput: String! @doc(description: "")
+    optionalInput: Int @doc(description: "")
+}

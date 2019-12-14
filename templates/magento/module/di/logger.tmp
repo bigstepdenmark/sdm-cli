@@ -1,0 +1,22 @@
+
+    <!-- LOGGER -->
+    <type name="{{vendor_name}}\{{module_name}}\Logger\Handler\Info">
+        <arguments>
+            <argument name="filesystem" xsi:type="object">Magento\Framework\Filesystem\Driver\File</argument>
+        </arguments>
+    </type>
+    <type name="{{vendor_name}}\{{module_name}}\Logger\Logger">
+        <arguments>
+            <argument name="name" xsi:type="string">{{logger_name}}</argument>
+            <argument name="handlers" xsi:type="array">
+                <!--emergency-->
+                <!--alert-->
+                <!--critical-->
+                <!--error-->
+                <!--warning-->
+                <!--notice-->
+                <item name="info" xsi:type="object">{{vendor_name}}\{{module_name}}\Logger\Handler\Info</item> <!--info-->
+                <!--debug-->
+            </argument>
+        </arguments>
+    </type>

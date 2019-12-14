@@ -1,0 +1,11 @@
+<?php
+
+namespace {{vendor_name}}\{{module_name}}\Logger;
+
+/**
+ * Class Logger
+ * @package {{vendor_name}}\{{module_name}}\Logger
+ */
+class Logger extends \Monolog\Logger
+{
+}

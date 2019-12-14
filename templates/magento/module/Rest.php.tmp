@@ -1,0 +1,51 @@
+<?php
+
+namespace {{vendor_name}}\{{module_name}}\Controller\Rest;
+
+use Magento\Framework\Webapi\Rest\Request;
+use Magento\Framework\Webapi\Rest\Response;
+
+/**
+ * Class Rest
+ * @package {{vendor_name}}\{{module_name}}\Controller\Rest
+ */
+class Rest implements RestInterface
+{
+    /**
+     * @var Request
+     */
+    private $request;
+
+    /**
+     * @var Response
+     */
+    private $response;
+
+    /**
+     * Rest constructor.
+     *
+     * @param Request $request
+     * @param Response $response
+     */
+    public function __construct(Request $request, Response $response)
+    {
+        $this->request = $request;
+        $this->response = $response;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function get(): string
+    {
+        return 'OK';
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function post(): string
+    {
+        return 'OK';
+    }
+}

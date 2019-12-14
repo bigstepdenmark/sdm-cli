@@ -1,0 +1,11 @@
+
+    <!-- COMMAND -->
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="{{command_name}}_command" xsi:type="object">
+                    {{vendor_name}}\{{module_name}}\Console\Command\Command
+                </item>
+            </argument>
+        </arguments>
+    </type>

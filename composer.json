@@ -1,0 +1,19 @@
+{
+    "name": "bigstepdenmark/sdm-cli",
+    "description": "Scandesign Media CLI",
+    "homepage": "https://github.com/bigstepdenmark/sdm-cli",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ismail Cam",
+            "email": "i@bigstep.dk"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "bin": [
+        "sdmcli"
+    ]
+}

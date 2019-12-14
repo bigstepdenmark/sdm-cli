@@ -1,0 +1,24 @@
+<?php
+
+namespace {{vendor_name}}\{{module_name}}\Controller\Rest;
+
+/**
+ * Interface RestInterface
+ * @package {{vendor_name}}\{{module_name}}\Controller\Rest
+ */
+interface RestInterface
+{
+    /**
+     * Handle GET request
+     * @return string
+     * @api
+     */
+    public function get(): string;
+
+    /**
+     * Handle POST request
+     * @return string
+     * @api
+     */
+    public function post(): string;
+}
