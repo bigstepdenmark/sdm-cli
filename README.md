@@ -7,19 +7,41 @@
 Require SDM CLI using [Composer](https://getcomposer.org):
 
 ```bash
-composer global require bigstepdenmark/sdm-cli
+$ composer global require bigstepdenmark/sdm-cli
 ```
 
 ## Usage
 
+List all sdmcli commands:
 ```bash
-sdmcli
+$ sdmcli
 ```
 
-#### Create Magento 2 module
-
+Help:
 ```bash
-sdmcli magento:make:module
+$ sdmcli help <command> 
+#or
+$ sdmcli <command> --help
+```
+
+Create a new Magento module:
+```bash
+$ sdmcli magento:make:module
+```
+
+Install a fresh Laravel Application:
+```bash
+$ sdmcli laravel:new <name>
+```
+
+Install a fresh Symfony Application:
+```bash
+$ sdmcli symfony:new <name> [--type=web,ms/microservice]
+```
+
+Install a fresh Drupal8 Application:
+```bash
+$ sdmcli drupal8:new <name>
 ```
 
 ![](/images/1.jpg "")
