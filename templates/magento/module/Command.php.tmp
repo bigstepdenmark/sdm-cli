@@ -1,21 +1,21 @@
 <?php
 
-namespace {{vendor_name}}\{{module_name}}\Console\Command;
+namespace SDM\{{module_name}}\Console\Command;
 
-use Symfony\Component\Console\Command\Command as BaseCommand;
+use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
- * Class Command
- * @package {{vendor_name}}\{{module_name}}\Console\Command
+ * Class {{module_name}}Command
+ * @package SDM\{{module_name}}\Console\Command
  */
-class Command extends BaseCommand
+class {{module_name}}Command extends Command
 {
     protected function configure()
     {
-        $this->setName('{{command_name}}')->setDescription('This is my command description');
+        $this->setName('sdm:{{command_name}}')->setDescription('This is my command description');
 
         // Required option --id=?
         /**$this->addOption(

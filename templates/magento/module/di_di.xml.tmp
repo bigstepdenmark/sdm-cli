@@ -1,0 +1,2 @@
+    <!-- DI -->
+    <preference for="SDM\{{module_name}}\Controller\Rest\RestInterface" type="SDM\{{module_name}}\Controller\Rest\Rest"/>

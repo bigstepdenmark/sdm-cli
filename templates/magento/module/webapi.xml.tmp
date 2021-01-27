@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
-    <route url="/V1/{{vendor_name_lc}}/{{module_name_lc}}/get" method="GET">
-        <service class="{{vendor_name}}\{{module_name}}\Controller\Rest\RestInterface" method="get"/>
+    <route url="/V1/{{module_name_lowercase}}/get" method="GET">
+        <service class="SDM\{{module_name}}\Controller\Rest\RestInterface" method="get"/>
         <resources>
             <resource ref="anonymous"/>
         </resources>
     </route>
-    <route url="/V1/{{vendor_name_lc}}/{{module_name_lc}}/post" method="POST">
-        <service class="{{vendor_name}}\{{module_name}}\Controller\Rest\RestInterface" method="post"/>
+    <route url="/V1/{{module_name_lowercase}}/post" method="POST">
+        <service class="SDM\{{module_name}}\Controller\Rest\RestInterface" method="post"/>
         <resources>
             <resource ref="anonymous"/>
         </resources>

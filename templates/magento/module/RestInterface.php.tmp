@@ -1,10 +1,10 @@
 <?php
 
-namespace {{vendor_name}}\{{module_name}}\Controller\Rest;
+namespace SDM\{{module_name}}\Controller\Rest;
 
 /**
  * Interface RestInterface
- * @package {{vendor_name}}\{{module_name}}\Controller\Rest
+ * @package SDM\{{module_name}}\Controller\Rest
  */
 interface RestInterface
 {

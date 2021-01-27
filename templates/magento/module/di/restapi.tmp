@@ -1,3 +1,0 @@
-
-    <!-- Rest API -->
-    <preference for="{{vendor_name}}\{{module_name}}\Controller\Rest\RestInterface" type="{{vendor_name}}\{{module_name}}\Controller\Rest\Rest"/>

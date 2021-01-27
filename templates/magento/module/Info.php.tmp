@@ -1,13 +1,13 @@
 <?php
 
-namespace {{vendor_name}}\{{module_name}}\Logger\Handler;
+namespace SDM\{{module_name}}\Logger\Handler;
 
 use Magento\Framework\Logger\Handler\Base;
-use {{vendor_name}}\{{module_name}}\Logger\Logger;
+use SDM\{{module_name}}\Logger\Logger;
 
 /**
  * Class Info
- * @package {{vendor_name}}\{{module_name}}\Logger\Handler
+ * @package SDM\{{module_name}}\Logger\Handler
  */
 class Info extends Base
 {

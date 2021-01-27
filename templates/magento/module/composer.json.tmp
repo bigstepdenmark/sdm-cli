@@ -1,5 +1,5 @@
 {
-  "name": "{{package_name}}",
+  "name": "sdm/{{package_name}}",
   "license": "proprietary",
   "description": "Magento Module",
   "type": "magento2-module",
@@ -11,7 +11,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "{{vendor_name}}\\{{module_name}}\\": ""
+      "SDM\\{{module_name}}\\": ""
     }
   }
 }

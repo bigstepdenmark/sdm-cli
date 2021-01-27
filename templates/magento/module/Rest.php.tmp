@@ -1,13 +1,13 @@
 <?php
 
-namespace {{vendor_name}}\{{module_name}}\Controller\Rest;
+namespace SDM\{{module_name}}\Controller\Rest;
 
 use Magento\Framework\Webapi\Rest\Request;
 use Magento\Framework\Webapi\Rest\Response;
 
 /**
  * Class Rest
- * @package {{vendor_name}}\{{module_name}}\Controller\Rest
+ * @package SDM\{{module_name}}\Controller\Rest
  */
 class Rest implements RestInterface
 {
@@ -22,7 +22,7 @@ class Rest implements RestInterface
     private $response;
 
     /**
-     * Rest constructor.
+     * PaymentResponse constructor.
      *
      * @param Request $request
      * @param Response $response

@@ -1,6 +1,6 @@
 <?php
 
-namespace {{vendor_name}}\{{module_name}}\Model\Resolver;
+namespace SDM\{{module_name}}\Model\Resolver;
 
 use Exception;
 use Magento\Framework\GraphQl\Config\Element\Field;
@@ -11,7 +11,7 @@ use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 
 /**
  * Class Resolver
- * @package {{vendor_name}}\{{module_name}}\Model\Resolver
+ * @package SDM\{{module_name}}\Model\Resolver
  */
 class Resolver implements ResolverInterface
 {
@@ -29,6 +29,6 @@ class Resolver implements ResolverInterface
      */
     public function resolve(Field $field, $context, ResolveInfo $info, array $value = null, array $args = null)
     {
-        return ['output' => 'OK'];
+        //TODO: let's code :))
     }
 }
